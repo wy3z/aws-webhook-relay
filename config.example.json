@@ -1,0 +1,12 @@
+{
+  "vpcEnabled": false,
+  "primaryUrl": "https://n8n.example.com/webhook/router",
+  "timeoutSeconds": 15,
+  "forwardTimeoutMs": 8000,
+  "memorySize": 128,
+  "logRetentionDays": 30,
+  "rateLimit": 100,
+  "burstLimit": 25,
+  "filterRules": {},
+  "filterTargets": ["secondary"]
+}

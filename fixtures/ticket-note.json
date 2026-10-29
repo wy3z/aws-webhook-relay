@@ -1,0 +1,6 @@
+{
+  "EntityType": "TicketNote",
+  "Action": "Create",
+  "id": 9102,
+  "Fields": { "status": 9001, "ticketID": 9101, "description": "Synthetic note" }
+}

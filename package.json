@@ -1,0 +1,23 @@
+{
+  "name": "aws-webhook-relay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone signed webhook relay with configurable target filtering.",
+  "license": "MIT",
+  "scripts": {
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "test": "node --test \"tests/*.test.js\"",
+    "check": "node --check bin/relay.js && node --check lib/relay-stack.js && node --check lambda/index.js && node --check lambda/event-filter.js && node --check scripts/sign-and-send.js"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.178.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "aws-cdk": "^2.178.0",
+    "@aws-sdk/client-secrets-manager": "^3.0.0"
+  },
+  "engines": { "node": ">=22" }
+}

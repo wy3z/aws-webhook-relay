@@ -1,0 +1,6 @@
+{
+  "entityTypes": ["ticket", "ticketnote"],
+  "alwaysForwardStatuses": [9001, 9002],
+  "actionableStatuses": [9003, 9004],
+  "requireUpdateActionFor": ["ticket"]
+}

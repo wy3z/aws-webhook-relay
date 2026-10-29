@@ -1,0 +1,6 @@
+{
+  "EntityType": "Asset",
+  "Action": "Update",
+  "id": 9103,
+  "Fields": { "status": 9003 }
+}
